@@ -64,8 +64,8 @@ section h2, .tit_sec_sub{font-family:'MapoFlowerIsland';}
 .btn_contact > a + a{margin-left:0.5rem;}
 .bride .btn_contact > a{border-color:#b6648e;color:#b6648e;}
 
-.tit_sec_sub{position:relative;margin:7.7rem 0 2rem;font-size:1.8rem}
-.tit_sec_sub:before{position:absolute;top:-3rem;left:50%;transform:translateX(-50%);content:'';display:block;width:10rem;height:0.1rem;border-top:0.2rem dotted #ddd;}
+.tit_sec_sub{position:relative;margin:8rem 0 2rem;font-size:1.8rem}
+.tit_sec_sub:before{position:absolute;top:-3.5rem;left:50%;transform:translateX(-50%);content:'';display:block;width:10rem;height:0.1rem;border-top:0.2rem dotted #ddd;}
 .acc_info{margin-bottom:2rem;font-family:'MapoFlowerIsland';font-size:1.2rem;color:#838383;}
 .accunt_wrap ul > li{display:flex;align-items:center;justify-content:center;font-size:1.3rem;}
 .accunt_wrap ul > li + li{margin-top:1rem;}
