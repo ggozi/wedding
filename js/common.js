@@ -64,6 +64,19 @@ var gallery = function(){
     
 }
 
+var popUi = function(){
+    var $popBtn = $('.ui-pop-open');
+
+    $popBtn.each(function(){
+        var $this = $(this);
+
+        $this.on('click',function(){
+            var $thHref = $this.prop('href');
+            console.log($thHref);
+        });
+    })
+}
+
 var kakaoUi = {
     init : function(){
         kakaoUi.map();
