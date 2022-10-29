@@ -1,7 +1,8 @@
 $(function(){
     gallery();
-    kakaoUi.init();
+    //kakaoUi.init();
     popUi();
+
 });
 
 $(document).ready(function(){
@@ -24,7 +25,26 @@ $(document).ready(function(){
         },300);
     });
 
+    var $btnCopy = $('.btn_copy');
+    $btnCopy.each(function(){
+        var $this = $(this),
+            $numTit = $this.siblings('.account_num').attr('title');
 
+        $this.on('click',function(){
+            console.log($numTit);
+            copyToClipboard($numTit);
+            alert('계좌번호를 복사하였습니다');
+        });
+    })
+
+    function copyToClipboard(val) {
+        var t = document.createElement('textarea');
+        document.body.appendChild(t);
+        t.value = val;
+        t.select();
+        document.execCommand('copy');
+        document.body.removeChild(t);
+    }
 });
 
 // document.documentElement.addEventListener('touchstart', function (event) {
@@ -64,19 +84,27 @@ var gallery = function(){
     });
     
 }
-
+var $popSpeed = 300,
+	$popOpenBtn = '';
 var popUi = function(){
     var $popBtn = $('.ui-pop-open');
 
     $popBtn.each(function(){
         var $this = $(this);
-        console.log($this);
         $this.on('click',function(){
-            var $thHref = $this.prop('href');
-            console.log($thHref);
-            $('$thHref').addClass('is_visible');
+            var $thHref = $this.attr('href');
+
+            $($thHref).addClass('is_visible');
+            $('body').css('overflow','hidden');
         });
-    })
+    });
+
+    var $popClose = $('.pop_close');
+
+    $popClose.on('click',function(){
+        $(this).parents('.pop_wrap').removeClass('is_visible');
+        $('body').removeAttr('style');
+    });
 }
 
 var kakaoUi = {

@@ -105,5 +105,22 @@ section h2, .tit_sec_sub{font-family:'MapoFlowerIsland';}
 .btn_wrap{margin:3rem 0 0;width:100%;text-align:center;}
 .btn_kakao{display:inline-block;width:17rem;height:3rem;text-align:center;font-size:1.2rem;font-weight:900;color:#191919;background:#fee500 url(../images/ico_kakao.png) no-repeat center left 1.4rem / 1.2rem 1.1rem;border-radius:0.3rem;}
 
-.pop_wrap{display:none;position:fixed;top:0;bottom:0;left:0;right:0;width:100%;background:rgba(0,0,0,0.7);z-index:1000;}
-.pop_wrap.is_visible{display:flex;transition:all 0.2;}
+.pop_wrap{display:none;position:fixed;top:0;bottom:0;left:0;right:0;width:100%;background:rgba(0,0,0,0.7);transition:all 1s;z-index:1000;}
+.pop_wrap.is_visible{display:flex;justify-content:center;align-items:center;}
+.pop_wrap .popup{position:relative;width:25rem;background:#fff;border-radius:0.5rem;}
+.pop_head{padding:1rem 0.5rem;border-bottom:0.1rem dotted #ddd;}
+.pop_head h1{text-align:center;font-size:1.7rem;font-family:'MapoFlowerIsland';}
+.pop_cont{display:flex;align-items:center;padding:1.8rem 1.5rem 2rem;}
+.pop_account{width:100%;}
+.pop_account > li{position:relative;}
+.pop_account > li + li{margin-top:1rem;padding-top:1rem;border-top:0.1rem dotted #ddd;}
+.pop_account span{display:block;font-size:1.3rem;}
+.pop_account .name{font-weight:700;}
+.pop_account .account_num{margin-top:0.3rem;color:#0c1113;}
+.pop_account.bride .account_num{color:#1e1017;}
+.btn_copy{position:absolute;bottom:0;right:0;display:inline-block;padding:0 0.8rem;height:1.8rem;line-height:1.5rem;border:1px solid #7cabc3;color:#649ab6;font-size:1.2rem;font-weight:700;border-radius:0.3rem;}
+.bride .btn_copy{color:#bf7a9e;border-color:#bf7a9e;}
+.pop_close{position:absolute;top:0.3rem;right:0.5rem;width:3rem;height:3rem;color:transparent;font-size:0.1px;}
+.pop_close:before,.pop_close:after{position:absolute;top:0.9rem;right:1.5rem;content:'';display:block;width:0.1rem;height:1.5rem;background:#000;}
+.pop_close:before{transform:rotate(45deg);}
+.pop_close:after{transform:rotate(-45deg);}
