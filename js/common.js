@@ -26,6 +26,14 @@ $(document).ready(function(){
         },300);
     });
 
+
+    function sendLinkCustom() {
+        Kakao.init("[Javascript API key]");
+        Kakao.Link.sendCustom({
+            templateId: [templete id]
+        });
+    }
+
     
 });
 
