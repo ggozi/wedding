@@ -1,0 +1,68 @@
+@charset "utf-8";
+@font-face{
+	font-family: 'SpoqaHanSansNeo';
+	src: local('SpoqaHanSansNeo1'),
+	    url('../fonts/SpoqaHanSansNeo-Thin.woff2') format('woff2'),
+	    url('../fonts/SpoqaHanSansNeo-Thin.woff') format('woff'),
+	    url('../fonts/SpoqaHanSansNeo-Thin.woff') format('truetype'),
+        url('../fonts/SpoqaHanSansNeo-Thin.eot') format('embeded-opentype');
+	font-weight: 100;
+	font-style: normal;
+	font-display:swap;
+}
+@font-face{
+	font-family: 'SpoqaHanSansNeo';
+	src: local('SpoqaHanSansNeo'),
+	    url('../fonts/SpoqaHanSansNeo-Light.woff2') format('woff2'),
+	    url('../fonts/SpoqaHanSansNeo-Light.woff') format('woff'),
+	    url('../fonts/SpoqaHanSansNeo-Light.woff') format('truetype'),
+        url('../fonts/SpoqaHanSansNeo-Light.eot') format('embeded-opentype');
+	font-weight: 200;
+	font-style: normal;
+	font-display:swap;
+}
+@font-face{
+	font-family: 'SpoqaHanSansNeo';
+	src: local('SpoqaHanSansNeo2'),
+        url('../fonts/SpoqaHanSansNeo-Regular.woff2') format('woff2'),
+	    url('../fonts/SpoqaHanSansNeo-Regular.woff') format('woff'),
+	    url('../fonts/SpoqaHanSansNeo-Regular.woff') format('truetype'),
+        url('../fonts/SpoqaHanSansNeo-Regular.eot') format('embeded-opentype');
+	font-weight: 400;
+	font-style: normal;
+	font-display:swap;
+}
+@font-face{
+	font-family: 'SpoqaHanSansNeo';
+	src: local('SpoqaHanSansNeo'),
+        url('../fonts/SpoqaHanSansNeo-Medium.woff2') format('woff2'),
+	    url('../fonts/SpoqaHanSansNeo-Medium.woff') format('woff'),
+	    url('../fonts/SpoqaHanSansNeo-Medium.woff') format('truetype'),
+        url('../fonts/SpoqaHanSansNeo-Medium.eot') format('embeded-opentype');
+	font-weight: 700;
+	font-style: normal;
+	font-display:swap;
+}
+@font-face{
+	font-family: 'SpoqaHanSansNeo';
+	src: local('SpoqaHanSansNeo'),
+        url('../fonts/SpoqaHanSansNeo-Bold.woff2') format('woff2'),
+	    url('../fonts/SpoqaHanSansNeo-Bold.woff') format('woff'),
+	    url('../fonts/SpoqaHanSansNeo-Bold.woff') format('truetype'),
+        url('../fonts/SpoqaHanSansNeo-Bold.eot') format('embeded-opentype');
+	font-weight: 900;
+	font-style: normal;
+	font-display:swap;
+}
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('../fonts/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MapoGoldenPier';
+    src: url('../fonts/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
