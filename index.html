@@ -193,8 +193,15 @@
         <div id="btnKakao">
             <img src="/img/sns_kakao.png" id="kakao-link-btn" alt="카카오톡 링크 공유하기">
         </div>
-        <script>kakaoUi.init();</script>
         <audio src="Beneath_the_Moonlight.mp3" controls autoplay loop></audio>
+        <script>
+            Kakao.init('0e98cc5dddc715cc4db771a02017b856');
+            Kakao.Link.createScrapButton({
+                container: '#kakao-link-btn',
+                requestUrl: 'https://ggozi.github.io/',
+                templateId : 85055
+            });
+        </script>
     </div>
 </body>
 </html>
