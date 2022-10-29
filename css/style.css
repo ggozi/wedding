@@ -86,5 +86,6 @@ section h2, .tit_sec_sub{font-family:'MapoFlowerIsland';}
 .wd_map{width:100%;height:30rem;border-radius: 0.5rem !important;}
 .wd_address{padding:0.5rem;font-size:1.3rem;background:#fff;border-radius:0 0 0.3rem 0.3rem;}
 .wd_address strong{display:block;padding-bottom:0.5rem;font-weight:700;}
-
-.btn_kakao{width:17rem;height:3rem;text-align:center;font-size:1.2rem;font-weight:900;color:#191919;background:#fee500 url(../images/ico_kakao.png) no-repeat center left 1.4rem / 1.2rem 1.1rem;border-radius:0.3rem;}
+.transport_wrap > li{padding-left:3rem;}
+.btn_wrap{margin:3rem 0 0;width:100%;text-align:center;}
+.btn_kakao{display:inline-block;width:17rem;height:3rem;text-align:center;font-size:1.2rem;font-weight:900;color:#191919;background:#fee500 url(../images/ico_kakao.png) no-repeat center left 1.4rem / 1.2rem 1.1rem;border-radius:0.3rem;}
