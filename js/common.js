@@ -67,7 +67,7 @@ var gallery = function(){
 var kakaoUi = {
     init : function(){
         kakaoUi.map();
-        //kakaoUi.link();
+        kakaoUi.link();
     },
     map : function(){
         var mapContainer = document.getElementById('weddingMap'), // 지도를 표시할 div
@@ -97,8 +97,12 @@ var kakaoUi = {
         marker.setMap(map); 
     },
     link : function(){
-
-
+        Kakao.init('0e98cc5dddc715cc4db771a02017b856');
+        Kakao.Link.createScrapButton({
+            container: '#kakao-link-btn',
+            requestUrl: 'https://ggozi.github.io',
+            templateId : 85055
+        });
     }
 
 }
