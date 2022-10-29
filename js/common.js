@@ -1,6 +1,7 @@
 $(function(){
     gallery();
     kakaoUi.init();
+    popUi();
 });
 
 $(document).ready(function(){
@@ -69,10 +70,11 @@ var popUi = function(){
 
     $popBtn.each(function(){
         var $this = $(this);
-
+        console.log($this);
         $this.on('click',function(){
             var $thHref = $this.prop('href');
             console.log($thHref);
+            $($thHref).addClass('is_visible');
         });
     })
 }
