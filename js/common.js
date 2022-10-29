@@ -1,5 +1,5 @@
 $(function(){
-    kakaoUi();
+    kakaoUi.init();
     gallery();
 });
 
