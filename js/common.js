@@ -1,6 +1,6 @@
 $(function(){
     gallery();
-    //kakaoUi.init();
+    kakaoUi.init();
     popUi();
 
 });
