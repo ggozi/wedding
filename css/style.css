@@ -45,7 +45,7 @@ section h2, .tit_sec_sub{font-family:'MapoFlowerIsland';}
 .wd_txt{font-size:1.2rem;font-family:'MapoFlowerIsland';}
 .wd_txt strong{display:block;margin-top:1.5rem;font-size:1.3rem;}
 .wd_big_txt{margin-top:2rem;letter-spacing:0.3rem;}
-.wd_big_txt span{display:block;font-size:1.2rem;}
+.wd_big_txt span{display:block;margin-top:0.5rem;font-size:1.2rem;}
 .wd_big_txt span strong{font-size:1.4rem}
 .wd_big_txt .one_word{display:inline-block;width:2.3rem;}
 .wd_big_txt span strong.character{font-size:1.6rem;font-weight:900;}
