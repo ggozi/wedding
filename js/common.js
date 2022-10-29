@@ -74,7 +74,7 @@ var popUi = function(){
         $this.on('click',function(){
             var $thHref = $this.prop('href');
             console.log($thHref);
-            $($thHref).addClass('is_visible');
+            $('$thHref').addClass('is_visible');
         });
     })
 }
