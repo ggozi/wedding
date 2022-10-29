@@ -81,6 +81,8 @@ section h2, .tit_sec_sub{font-family:'MapoFlowerIsland';}
 .gallery_swiper .swiperThumb{margin-top:0.5rem;height:5.8rem;}
 .gallery_swiper .img img{object-fit:cover;}
 .gallery_swiper .swiper-slide{display:flex;align-items:center;}
+.swiperThumb .swiper-slide{opacity:0.5;}
+.swiperThumb .swiper-slide.swiper-slide-thumb-active{opacity:1;}
 
 #map{padding-bottom:6rem;}
 .wd_map{width:100%;height:30rem;border-radius: 0.5rem !important;}
