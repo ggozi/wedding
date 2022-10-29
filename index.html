@@ -12,8 +12,8 @@
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/swiper-bundle.min.js"></script>
     <script src="js/lib/snowfall.jquery.js"></script>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0e98cc5dddc715cc4db771a02017b856"></script>
     <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0e98cc5dddc715cc4db771a02017b856"></script>
     <script src="js/lib/all.min.js"></script>
     <script src="js/common.js"></script>
 </head>
@@ -193,18 +193,6 @@
         <div id="btnKakao">
             <img src="/img/sns_kakao.png" id="kakao-link-btn" alt="카카오톡 링크 공유하기">
         </div>
-        <script type='text/javascript'>
-            //<![CDATA[
-            // // 사용할 앱의 JavaScript 키를 설정해 주세요.
-            Kakao.init('0e98cc5dddc715cc4db771a02017b856');
-            // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
-            Kakao.Link.createScrapButton({
-                container: '#kakao-link-btn',
-                requestUrl: 'https://ggozi.github.io/',
-                templateId : 85055
-            });
-            //]]>
-        </script>
         <audio src="Beneath_the_Moonlight.mp3" controls autoplay loop></audio>
     </div>
 </body>
