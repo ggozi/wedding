@@ -2,6 +2,7 @@ $(function(){
     gallery();
     kakaoUi.init();
     popUi();
+    copyUi();
 
 });
 
@@ -25,15 +26,18 @@ $(document).ready(function(){
         },300);
     });
 
+    
+});
+
+var copyUi = function(){
     var $btnCopy = $('.btn_copy');
     $btnCopy.each(function(){
         var $this = $(this),
             $numTit = $this.siblings('.account_num').attr('title');
 
         $this.on('click',function(){
-            console.log($numTit);
-            copyToClipboard($numTit);
             alert('계좌번호를 복사하였습니다');
+            copyToClipboard($numTit);
         });
     })
 
@@ -45,22 +49,7 @@ $(document).ready(function(){
         document.execCommand('copy');
         document.body.removeChild(t);
     }
-});
-
-// document.documentElement.addEventListener('touchstart', function (event) {
-//     if (event.touches.length > 1) {
-//          event.preventDefault(); 
-//        } 
-//    }, false);
-
-// var lastTouchEnd = 0; 
-
-// document.documentElement.addEventListener('touchend', function (event) {
-//     var now = (new Date()).getTime();
-//     if (now - lastTouchEnd <= 300) {
-//          event.preventDefault(); 
-//        } lastTouchEnd = now; 
-//    }, false);
+}
 
 var gallery = function(){
     
