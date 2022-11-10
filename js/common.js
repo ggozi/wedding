@@ -17,14 +17,21 @@ $(document).ready(function(){
         maxSpeed:2
      });
 
-    $(document).find('html').stop().animate({
-        fontSize: ($(window).innerWidth()) * 10 / 360
+
+    if($(window).innerWidth() >= 780){
+        $(document).find('html').stop().animate({
+            fontSize: 10
         },0);
-    $(window).resize(function(){
+    }else{
         $(document).find('html').stop().animate({
             fontSize: ($(window).innerWidth()) * 10 / 360
-        },300);
-    });
+        },0);
+        $(window).resize(function(){
+            $(document).find('html').stop().animate({
+                fontSize: ($(window).innerWidth()) * 10 / 360
+            },300);
+        });
+    }
     
 });
 
