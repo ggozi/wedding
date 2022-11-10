@@ -84,7 +84,7 @@ var popUi = function(){
             var $thHref = $this.attr('href');
 
             $($thHref).addClass('is_visible');
-            $('body').css('position','fixed');
+            $('body').css('position','fixed');;
         });
     });
 
