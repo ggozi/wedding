@@ -116,7 +116,7 @@ section h2, .tit_sec_sub{font-family:'MapoFlowerIsland';}
 .pop_cont{display:flex;align-items:center;padding:1.8rem 1.5rem 2rem;}
 .pop_account{width:100%;}
 .pop_account > li{position:relative;}
-.pop_account > li + li{margin-top:1rem;padding-top:1rem;border-top:0.1rem dotted #ddd;}
+.pop_account > li + li{margin-top:1.8rem;padding-top:1.8rem;border-top:0.1rem dotted #ddd;}
 .pop_account span{display:block;font-size:1.3rem;}
 .pop_account .name{font-weight:700;}
 .pop_account .account_num{margin-top:0.3rem;color:#0c1113;}
