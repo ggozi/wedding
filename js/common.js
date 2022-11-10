@@ -18,20 +18,14 @@ $(document).ready(function(){
      });
 
 
-    if($(window).innerWidth() >= 780){
-        $(document).find('html').stop().animate({
-            fontSize: 10
-        },0);
-    }else{
+    $(document).find('html').stop().animate({
+        fontSize: ($(window).innerWidth()) * 10 / 360
+    },0);
+    $(window).resize(function(){
         $(document).find('html').stop().animate({
             fontSize: ($(window).innerWidth()) * 10 / 360
-        },0);
-        $(window).resize(function(){
-            $(document).find('html').stop().animate({
-                fontSize: ($(window).innerWidth()) * 10 / 360
-            },300);
-        });
-    }
+        },300);
+    });
     
 });
 
