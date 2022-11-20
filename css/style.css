@@ -35,7 +35,7 @@ section h2, .tit_sec_sub{font-family:'MapoFlowerIsland';}
 .main_date > strong{font-weight:900;}
 .wedding_character{padding:1.5rem 0 2rem;font-family:'MapoFlowerIsland';font-size:1.7rem;}
 .wedding_character > i{font-size:1.3rem;}
-.main_img{position:relative;width:100%;overflow:hidden;transform: scaleX(-1);}
+.main_img{position:relative;width:100%;overflow:hidden;}
 .main_img:after{content:'';display:block;padding-bottom:100%;}
 .main_img span{position:absolute;width:100%;display:flex;}
 .wedding_txt{padding-top:1rem;font-size:1.2rem;font-family:'MapoGoldenPier';}
