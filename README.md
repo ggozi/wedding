@@ -1,1 +1,1 @@
-# ggozi.github.io
+# ggozi.github.io/wedding
